@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+html,
+body {
+  @apply min-h-screen w-full bg-[#111214] text-slate-100;
+  font-family: "Montserrat Alternates", "Trebuchet MS", sans-serif;
+}
+
+body {
+  @apply m-0;
+}
