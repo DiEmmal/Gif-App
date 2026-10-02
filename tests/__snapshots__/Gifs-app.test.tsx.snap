@@ -1,0 +1,99 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Gifs-app > should match the snapshot 1`] = `
+<div>
+  <main
+    class="min-h-screen overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(148,163,184,0.16),_transparent_32%),radial-gradient(circle_at_90%_20%,_rgba(71,85,105,0.2),_transparent_28%),#111214]"
+  >
+    <header
+      class="mx-auto flex w-full max-w-7xl items-center justify-center px-4 pb-5 pt-8 sm:px-6 sm:pb-7 sm:pt-12"
+    >
+      <div>
+        <h1
+          class="m-0 bg-gradient-to-r from-white via-slate-300 to-slate-500 bg-clip-text text-3xl font-black tracking-tight text-transparent sm:text-5xl"
+        >
+          React giphy app
+        </h1>
+        <p
+          class="mt-2 text-slate-500"
+        >
+          Find the perfect gif and share it
+        </p>
+      </div>
+    </header>
+    <div
+      class="mx-auto flex w-full max-w-7xl flex-col items-center px-4 pb-12 pt-3 sm:px-6 sm:pt-6"
+    >
+      <div
+        class="w-full max-w-2xl rounded-3xl border border-white/10 bg-white/[0.06] p-4 shadow-2xl shadow-black/30 backdrop-blur-md sm:p-6"
+      >
+        <div
+          class="flex flex-col gap-4"
+        >
+          <div
+            class="flex flex-col gap-2 sm:flex-row sm:items-center"
+          >
+            <input
+              class="min-w-0 flex-1 rounded-xl border border-white/10 bg-black/20 px-4 py-3 text-sm text-white outline-none transition duration-200 placeholder:text-slate-500 hover:border-white/25 hover:bg-black/30 focus:border-slate-400 focus:ring-4 focus:ring-white/10"
+              placeholder="Search..."
+              type="text"
+              value=""
+            />
+            <button
+              class="rounded-xl bg-slate-100 px-5 py-3 text-sm font-bold text-slate-900 transition duration-200 hover:bg-white hover:shadow-lg hover:shadow-white/10 active:scale-95 sm:w-auto"
+              type="button"
+            >
+              Search
+            </button>
+          </div>
+          <div
+            class="flex items-center justify-between gap-3 sm:justify-start"
+          >
+            <label
+              class="text-xs font-semibold uppercase tracking-[0.16em] text-slate-400"
+              for="limit"
+            >
+              GIF limit
+            </label>
+            <select
+              class="rounded-lg border border-white/10 bg-black/20 px-3 py-2 text-sm text-slate-200 outline-none transition duration-200 hover:border-white/25 hover:bg-black/30 focus:border-slate-400 focus:ring-4 focus:ring-white/10"
+              id="limit"
+            >
+              <option
+                value="9"
+              >
+                9
+              </option>
+              <option
+                value="12"
+              >
+                12
+              </option>
+              <option
+                value="18"
+              >
+                18
+              </option>
+            </select>
+          </div>
+        </div>
+        <div
+          class="mt-5 border-t border-white/10 pt-4"
+        >
+          <p
+            class="mb-3 text-[0.65rem] font-bold uppercase tracking-[0.2em] text-slate-500"
+          >
+            Recent searches
+          </p>
+          <ul
+            class="m-0 flex max-w-full list-none flex-wrap gap-2 p-0"
+          />
+        </div>
+      </div>
+      <div
+        class="mt-8 grid w-full max-w-6xl grid-cols-2 gap-3 sm:mt-10 sm:grid-cols-3 sm:gap-4"
+      />
+    </div>
+  </main>
+</div>
+`;

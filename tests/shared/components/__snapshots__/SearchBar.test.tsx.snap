@@ -1,0 +1,56 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SearchBar > should render the SearchBar component 1`] = `
+<div>
+  <div
+    class="flex flex-col gap-4"
+  >
+    <div
+      class="flex flex-col gap-2 sm:flex-row sm:items-center"
+    >
+      <input
+        class="min-w-0 flex-1 rounded-xl border border-white/10 bg-black/20 px-4 py-3 text-sm text-white outline-none transition duration-200 placeholder:text-slate-500 hover:border-white/25 hover:bg-black/30 focus:border-slate-400 focus:ring-4 focus:ring-white/10"
+        placeholder="Search..."
+        type="text"
+        value=""
+      />
+      <button
+        class="rounded-xl bg-slate-100 px-5 py-3 text-sm font-bold text-slate-900 transition duration-200 hover:bg-white hover:shadow-lg hover:shadow-white/10 active:scale-95 sm:w-auto"
+        type="button"
+      >
+        Search
+      </button>
+    </div>
+    <div
+      class="flex items-center justify-between gap-3 sm:justify-start"
+    >
+      <label
+        class="text-xs font-semibold uppercase tracking-[0.16em] text-slate-400"
+        for="limit"
+      >
+        GIF limit
+      </label>
+      <select
+        class="rounded-lg border border-white/10 bg-black/20 px-3 py-2 text-sm text-slate-200 outline-none transition duration-200 hover:border-white/25 hover:bg-black/30 focus:border-slate-400 focus:ring-4 focus:ring-white/10"
+        id="limit"
+      >
+        <option
+          value="9"
+        >
+          9
+        </option>
+        <option
+          value="12"
+        >
+          12
+        </option>
+        <option
+          value="18"
+        >
+          18
+        </option>
+      </select>
+    </div>
+  </div>
+</div>
+`;

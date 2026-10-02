@@ -10,7 +10,7 @@ export function useSearch(
   useEffect(() => {
     const interval = setTimeout(() => {
       searchGifs(query, gifLimit);
-    }, 1000);
+    }, 800);
 
     return () => {
       clearTimeout(interval);
