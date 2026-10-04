@@ -15,13 +15,13 @@ export function GifsApp() {
   } = useGif();
 
   return (
-    <main className="min-h-screen overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(148,163,184,0.16),_transparent_32%),radial-gradient(circle_at_90%_20%,_rgba(71,85,105,0.2),_transparent_28%),#111214]">
+    <main className="shadow-xl shadow-blue-200 min-h-screen overflow-hidden">
       <Header
         title="React giphy app"
         description="Find the perfect gif and share it"
       />
       <div className="mx-auto flex w-full max-w-7xl flex-col items-center px-4 pb-12 pt-3 sm:px-6 sm:pt-6">
-        <div className="w-full max-w-2xl rounded-3xl border border-white/10 bg-white/[0.06] p-4 shadow-2xl shadow-black/30 backdrop-blur-md sm:p-6">
+        <div className="shadow-md shadow-blue-200 rounded-md p-8 min-w-75 w-full max-w-2xl">
           <SearchBar
             gifLimit={gifLimit}
             searchGifs={searchGifs}

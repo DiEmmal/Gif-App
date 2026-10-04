@@ -24,19 +24,19 @@ export function SearchBar({
           value={query}
           placeholder={placeholder}
           onChange={(event) => setQuery(event.target.value)}
-          className="min-w-0 flex-1 rounded-xl border border-white/10 bg-black/20 px-4 py-3 text-sm text-white outline-none transition duration-200 placeholder:text-slate-500 hover:border-white/25 hover:bg-black/30 focus:border-slate-400 focus:ring-4 focus:ring-white/10"
+          className="h-10 w-full sm:w-[18rem] p-2 rounded-lg border border-slate-700 active:border-white ml-auto"
           onKeyDown={handleKeyDown}
         />
         <button
           onClick={handleSearch}
           type="button"
-          className="rounded-xl bg-slate-100 px-5 py-3 text-sm font-bold text-slate-900 transition duration-200 hover:bg-white hover:shadow-lg hover:shadow-white/10 active:scale-95 sm:w-auto"
+          className="h-10 mr-auto rounded-md bg-stone-800 px-2 cursor-pointer active:bg-stone-600 hover:bg-stone-900 transition duration-200"
         >
           Search
         </button>
       </div>
 
-      <div className="flex items-center justify-between gap-3 sm:justify-start">
+      <div className="flex items-center justify-between gap-3 sm:justify-start mx-auto">
         <label
           htmlFor="limit"
           className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-400"
@@ -46,7 +46,7 @@ export function SearchBar({
         <select
           id="limit"
           value={gifLimit}
-          className="rounded-lg border border-white/10 bg-black/20 px-3 py-2 text-sm text-slate-200 outline-none transition duration-200 hover:border-white/25 hover:bg-black/30 focus:border-slate-400 focus:ring-4 focus:ring-white/10"
+          className="rounded-md border border-slate-700 bg-transparent px-2 py-1 text-slate-200 focus:border-blue-500"
           onChange={handleLimitChange}
         >
           <option value="9">9</option>
