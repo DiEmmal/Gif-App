@@ -10,7 +10,7 @@ export function GifsContainer({ gifs }: Props) {
       {gifs.map((gif) => (
         <article
           key={gif.id}
-          className="group overflow-hidden rounded-2xl border border-white/10 bg-white/[0.06] p-1.5 shadow-lg shadow-black/20 transition duration-300 hover:-translate-y-1 hover:border-white/25 hover:bg-white/10"
+          className="group overflow-hidden rounded-2xl border border-white/10 bg-white/6 p-1.5 shadow-lg shadow-black/20 transition duration-300 hover:-translate-y-1 hover:border-white/25 hover:bg-white/10"
         >
           <img
             src={gif.url}
